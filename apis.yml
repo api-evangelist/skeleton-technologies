@@ -1,7 +1,17 @@
 aid: skeleton-technologies
 name: Skeleton Technologies
-description: 'Skeleton Technologies is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: >-
+  Skeleton Technologies is an Estonian-German energy storage manufacturer, founded in Tartu,
+  Estonia in 2009 by Oliver Ahlberg and Taavi Madiberk, that designs and builds high-power
+  supercapacitor and SuperBattery systems on its patented Curved Graphene material. Its product
+  line spans SkelCap ultracapacitor cells, supercapacitor modules, and the GrapheneUPS,
+  GrapheneGPU and GrapheneBBU power systems aimed at AI data centers, grid stability, defense,
+  automotive, heavy transportation and industrial customers. The company has raised close to
+  EUR 400 million, counts Marubeni and Siemens among its backers, and manufactures at its
+  ISO 9001 / ISO 14001 certified Leipzig Superfactory in Germany, a Varkaus facility in Finland
+  and a Curved Graphene plant in Bitterfeld-Wolfen. Skeleton sells physical power hardware; it
+  operates no public developer program, API, SDK or machine-readable contract.
+image: https://www.skeletontech.com/hubfs/skeleton-technologies-1.jpg
 url: https://raw.githubusercontent.com/api-evangelist/skeleton-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +22,16 @@ created: '2026-08-28'
 modified: '2026-08-28'
 tags:
 - Company
+- Energy Storage
+- Supercapacitors
+- Ultracapacitors
+- Graphene
+- Manufacturing
+- Data Centers
+- Grid Stability
+- Hardware
+- Estonia
+- Germany
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +39,54 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/skeleton-technologies-domain-security.yml
 - type: Website
+  url: https://www.skeletontech.com/
+- type: About
+  url: https://www.skeletontech.com/about
+- type: Contact
+  url: https://www.skeletontech.com/contact
+- type: Blog
+  url: https://www.skeletontech.com/skeleton-blog
+- type: BlogRSS
+  url: https://www.skeletontech.com/skeleton-blog/rss.xml
+- type: PrivacyPolicy
+  url: https://www.skeletontech.com/privacy-policy
+- type: Products
+  url: https://www.skeletontech.com/all-products
+- type: Downloads
+  url: https://www.skeletontech.com/downloads
+- type: Press
+  url: https://www.skeletontech.com/press
+- type: Careers
+  url: https://www.skeletontech.com/careers
+- type: Investors
+  url: https://www.skeletontech.com/investors
+- type: SecondaryMarket
   url: https://www.hiive.com/securities/skeleton-technologies-stock
+- type: LLMsTxt
+  url: llms/skeleton-technologies-llms.txt
+x-enrichment:
+  date: '2026-08-28'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    Skeleton Technologies sells physical power hardware — supercapacitor cells, modules and
+    Graphene UPS/BBU systems — and its only software is embedded management firmware inside the
+    units; www.skeletontech.com is a HubSpot marketing site with no developer section, and the
+    api./developer./docs. subdomains do not resolve in DNS.
+  evidence:
+    - url: https://www.skeletontech.com/openapi.json
+      status: 404
+    - url: https://www.skeletontech.com/llms.txt
+      status: 404
+    - url: https://www.skeletontech.com/.well-known/agent-card.json
+      status: 404
+    - url: https://api.skeletontech.com/
+      status: 0
+  checked: '2026-08-28'

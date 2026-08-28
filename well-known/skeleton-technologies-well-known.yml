@@ -1,0 +1,35 @@
+generated: '2026-08-28'
+method: probed
+source: live GET probes of /.well-known/* on every host named in apis.yml
+note: >-
+  Every /.well-known/ path probed on the single host this company operates returned HTTP 404
+  from the HubSpot CMS 404 template (an HTML error page, not a document). No WellKnown or
+  SecurityTxt pointer is emitted, because nothing was served. This file records a verified
+  absence, not a presence.
+hosts:
+- host: www.skeletontech.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+  - path: /.well-known/dnt-policy.txt
+    status: 404
+    file: null
