@@ -11,6 +11,17 @@ description: >-
   ISO 9001 / ISO 14001 certified Leipzig Superfactory in Germany, a Varkaus facility in Finland
   and a Curved Graphene plant in Bitterfeld-Wolfen. Skeleton sells physical power hardware; it
   operates no public developer program, API, SDK or machine-readable contract.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 image: https://www.skeletontech.com/hubfs/skeleton-technologies-1.jpg
 url: https://raw.githubusercontent.com/api-evangelist/skeleton-technologies/refs/heads/main/apis.yml
 x-type: company
