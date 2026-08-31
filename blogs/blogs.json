@@ -1,0 +1,21 @@
+{
+  "repo": "skeleton-technologies",
+  "feeds": [
+    {
+      "source": "https://www.skeletontech.com/contact",
+      "feed_url": "https://www.skeletontech.com/contact",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://www.skeletontech.com/skeleton-blog",
+      "feed_url": "https://www.skeletontech.com/skeleton-blog/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-08-30T22:33:40Z"
+}
