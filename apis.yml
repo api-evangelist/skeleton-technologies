@@ -50,7 +50,7 @@ tags:
 - Ultracapacitors
 - Graphene
 - Manufacturing
-- Data-Center
+- Data Center
 - Grid Stability
 - Hardware
 - Estonia
@@ -67,6 +67,7 @@ tags_raw:
 - Hardware
 - Estonia
 - Germany
+- Data-Center
 apis: []
 maintainers:
 - FN: Kin Lane
