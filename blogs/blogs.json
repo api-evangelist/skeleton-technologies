@@ -2,13 +2,6 @@
   "repo": "skeleton-technologies",
   "feeds": [
     {
-      "source": "https://www.skeletontech.com/contact",
-      "feed_url": "https://www.skeletontech.com/contact",
-      "title": "",
-      "saved": 0,
-      "method": "none"
-    },
-    {
       "source": "https://www.skeletontech.com/skeleton-blog",
       "feed_url": "https://www.skeletontech.com/skeleton-blog/rss.xml",
       "title": "",
@@ -21,8 +14,15 @@
       "title": "",
       "saved": 0,
       "method": "feed"
+    },
+    {
+      "source": "https://www.skeletontech.com/contact",
+      "feed_url": "https://www.skeletontech.com/contact",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
   "post_count": 10,
-  "fetched": "2026-10-03T12:30:02Z"
+  "fetched": "2026-10-10T13:15:00Z"
 }
